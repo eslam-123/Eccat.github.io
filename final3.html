@@ -11,17 +11,25 @@
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
 <style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Rakkas Web Font", serif;}
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 130px;background: #222;}
+.w3-sidebar {width: 120px; 
+             background: #222;
+             
+ }
+
+
+
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
+#main {margin-right: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 </style>
@@ -31,26 +39,25 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <a href="http://suez.edu.eg/ar/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+ <a href="http://suez.edu.eg/ar/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
       <img src="scu.png" style="width:90%">
     
   </a>
-
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
+    <p>الـرئـيـسـيـة</p>
   </a>
   <a href="bg2.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-user w3-xxlarge"></i>
-    <p>LOG IN</p>
+    <p>تـسـجـيـل الـدخـول</p>
   </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black ">
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-trophy w3-xxlarge"></i>
-    <p>ACHIEVEMENT</p>
+    <p>انـجـازاتـنـا</p>
   </a>
-  <a href="final3.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="final2.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-language w3-xxlarge"></i>
-    <p>تــرجــمــة للعـربـيـة</p>
+    <p>Translate</p>
   </a>
 
 </nav>
@@ -69,55 +76,60 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h3 class="w3-jumbo"><span class="w3-hide-small">Suez Canal University </span> </h3>
+    <h3 class="w3-jumbo"><span class="w3-hide-small">جامعة قناة السويس </span> </h3>
      <br/>
 	 
-    <h2>Egyptian Chinese College for Applied Technology </h2>
+    <h2>الكلية المصرية الصينية للتكنولوجيا التطبيقية</h2>
 	<h1>大家好，欢迎光临</h1>
   </header>
- <video src="eccat.mp4" controls autoplay width="1350px" height="650px" align="center" margin="0" padding="0" muted autoplay loop playsinline>
+ <video src="eccat.mp4" controls autoplay width="1600px" height="650px" align="center" margin="0" padding="0" muted autoplay loop playsinline>
 			        Your browser does not support video element
 		         </video>
 
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+ 
+ 
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about" ">
   
-	  <h2 class="w3-text-light-grey">Presidents:</h2>
-		<hr style="width:170px" class="w3-opacity">
-	   <p> <b> <h3> President of SCU : Dr. Nasser Saeed Mandour  </p> </b> </h3>
-	   <p> <b> <h3> Vice president of Education and Student affairs : Dr.Mohamed shekedif</p> </b> </h3>
-	   <p> <b> <h3> Dean of ECCAT :Dr.Ibrahem Mohamed Fares </p> </b> </h3>
-       <p> <b> <h3>Vice Dean of education and student affairs : Dr. Tamer Nabil Mahmoud </p> </b> </h3>
+	  <h2 class="w3-text-light-grey"  style="text-align: right ;" > :ادارة</h2>
+		<hr style="width:200px text-align: right;"  class="w3-opacity" >
+	   <p> <b> <h3  style="text-align: right;"> رئيس جامعة قناة السويس : د/ ناصرسعيد مندور </p> </b> </h3>
+	   <p> <b> <h3  style="text-align: right;"> نائب رئيس جامعة قناة السويس : د/ محمد شقيدف</p> </b> </h3>
+	   <p> <b> <h3  style="text-align: right;"> عميد الكلية : د/ ابراهيم فارس </p> </b> </h3>
+	   <p> <b> <h3  style="text-align: right;"> وكيل الكلية للتعليم وشئون الطلبة : د/ تامر نبيل </p> </b> </h3>
   
-   <b> <h2 class="w3-text-light-grey">Brief about ECCAT :</h2></b>
-    <hr style="width:280px" class="w3-opacity">
-   <p> <b> <h3> The College was established in 2018. It is the first college in Egypt as a model for cooperation between the civil society represented by Misr Al-Kheir Foundation and a foreign partner, Beijing Information Technology College (BITC) with Suez Canal University. The College is working to maximize the role of technical and technological education in the service of industry and national economy to keep up with the rapid development in all technological sciences. The ECCAT also seeks to graduate technical cadres trained on the latest technological applications to meet the needs for development projects in and out the Suez Canal area.</h3></b> </p>
+  
+   <b> <h2 class="w3-text-light-grey" style="text-align: right;">:نبذه عن الكلية</h2></b>
+    <hr style=" width:200px text-align: right;" class="w3-opacity">
+   <p> <b> <h3 style="text-align: right;"> أنشئت الكلية عام 2018م وهي الكلية الأولى في مصر كنموذج للتعاون بين المجتمع المدني المتمثل في مؤسسة مصر الخير وشريك أجنبي هو كلية بكين لتكنولوجيا المعلومات (BITC) مع جامعة قناة السويس. تعمل الكلية علي تعظيم دور التعليم الفني والتكنولوجي في خدمة الصناعة والإقتصاد القومي والمساهمه في تحقيق التنمية الشاملة المستدامة في مواجهة التطور السريع في كافة العلوم التكنولوجية، كما تسعى الكلية لتخريج كوادر تقنية متميزة ومدربة علي أحدث التطبيقات التكنولوجية لسد حاجة المشروعات التنموية في منطقة قناة السويس وسيناء وخارجها.</h3></b> </p>
     
-	<b><h2 class="w3-padding-16 w3-text-light-grey">Departments :  </h2></b>
-	<hr style="width:220px" class="w3-opacity">
+	<b><h2 class="w3-padding-16 w3-text-light-grey"  style="text-align: right;">:الأقسام  </h2></b>
+	<hr style="width:200px text-align: right;" class="w3-opacity">
 	
-    <h3><p class="w3-padding-16 w3-text-light-grey">Communication Technology:</p></h3>
+    <h3><p class="w3-padding-16 w3-text-light-grey" style="text-align: right;">:قسم تكنولوجيا الاتصالات</p></h3>
    
-   <p> <b> <h4>Mobile network maintenance companies, Programming companies, training companies in the preparation of servers and surveillance devices, Satellite stations, Electricity companies.</p> </b> </h4>
+   <p> <b> <h4 style="text-align: right;">شركات  صيانة شبكات المحمول – شركات البرمجة – شركات التدريب على اعداد الخوادم واجهزة المراقبة – محطات  الاقمار الصناعية – شركات الكهرباء.</p> </b> </h4>
     
-    <h3><p class="w3-padding-16 w3-text-light-grey">Mechatronics Technology:</p></h3>
+    <h3><p class="w3-padding-16 w3-text-light-grey" style="text-align: right;">:قسم تكنولوجيا الميكاترونك</p></h3>
    
-   <p> <b> <h4>Electric and car assembly companies, Petroleum drilling companies and data collection and analysis, Medical equipment maintenance companies, Industrial control operations and operation of production lines, Manufacturers of electrical components and materials detectors.</p> </b> </h4>
+   <p> <b> <h4 style="text-align: right;"> شركات صناعة السيارات الكهربية والعادية – شركات حفر آبار البترول وجمع البيانات وتحليلها – شركات صيانة الأجهزة الطبية – عمليات التحكم الصناعية وتشغيل خطوط الإنتاج – شركات صناعة المكونات الكهربية وأجهزة كشف المواد..</p> </b> </h4>
     
-	<h3><p class="w3-padding-16 w3-text-light-grey">Electronics Technology: </p></h3>
+	<h3><p class="w3-padding-16 w3-text-light-grey" style="text-align: right;">:قسم تكنولوجيا الالكترونيات </p></h3>
    
-   <p> <b> <h4></p> Companies for the assembly and manufacture of radio and television, Manufacturers of electrical lighting components, Auto assembly and manufacturing companies, Textile and medical fabrication companies. </b> </h4>
+   <p> <b> <h4  style="text-align: right;"></p> شركات تجميع وتصنيع الراديو والتليفزيون – شركات تصنيع مكونات الاضاءة الكهربية – شركات تجميع وتصنيع السيارات – شركات صناعة الغزل والنسيج والانسجة الطبية.. </b> </h4>
    
    
     
-
+    
+    
+  
   
   <!-- Portfolio Section -->
   
   <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">Scientific Acheivements </h2>
-    <hr style="width:360px" class="w3-opacity">
+    <h2 class="w3-text-light-grey" style="text-align: right;" > : الانجازات العلمية  </h2>
+   <hr style="width:200px text-align: right;" class="w3-opacity">
 	
 
 
@@ -182,30 +194,30 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   
                    <br>
   <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">Other Achievements: </h2>
-    <hr style="width:320px" class="w3-opacity">
+    <h2 class="w3-text-light-grey" style="text-align: right;" > :بعض الانجازات الاخرى  </h2>
+    <hr style="width:200px text-align: right;" class="w3-opacity">
 
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
-	  <h4><p>Football</p></h4>
+	  <h4><p style="text-align: right;">كره القدم</p></h4>
         <img src="0.jpg" style="width:100%">
         <img src="11.jpg" style="width:100%">
       </div>
 	  
 	  <div class="w3-half">
-	  <h4><p>Chess</p></h4>
+	  <h4><p style="text-align: right;" >الشطرنج</p></h4>
         <img src="ch1.jpeg" style="width:100%">
         <img src="ch2.jpeg" style="width:100%">
       </div>
 	  
 	  <div class="w3-half">
-	  <h4><p>Wrestling</p></h4>
+	  <h4><p style="text-align: right;" >المصارعة</p></h4>
         <img src="20.jpeg" style="width:100%">
         
       </div>
 	  <div class="w3-half">
-	  <h4><p>Wrestling</p></h4>
+	  <h4><p style="text-align: right;" >المصارعة</p></h4>
         
         <img src="21.jpeg" style="width:100%">
       </div>
@@ -218,10 +230,21 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 
   <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">ECCATRONICS (Scientific Team)</h2>
-    <hr style="width:483px" class="w3-opacity">
+    <h2 class="w3-text-light-grey" style="text-align: right;" > (الفريق العلمي) ECCATRONICS </h2>
+    <hr style="width:483px text-align: right;" class="w3-opacity">
 	
-	  <div class="w3-half">
+	 
+	 <h3><p style="text-align: right;">انه تيم علمي انشأه طلاب الكليةالمصرية الصينية لكى يحققو اهداف الكلية <p><h3>
+	 
+	 <br/>
+	 
+	<b> <h3 class="w3-text-light-grey" style="text-align: right;" > : انجازات الفريق العلمي </h3> </b>
+	 
+	 <div class="w3-row-padding" style="margin:0 -16px ">
+      <div class="w3-half">
+	  
+	   
+	   <div class="w3-half">
 	
 		
 	  <h2><p>            </p></h2>
@@ -282,30 +305,21 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 	  
 	  
 	<br/>
-	  
-	  
-	  
-	  </div>
- 
-  </div>
-	 
-	 
-	
 
-<br/>
 
   <!-- Contact Section -->
+  
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Us</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Ismailia, Egypt</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> الاسماعيلية،مصر</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +02 1017976232</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: ECCAT2018@gmail.com</p>
     </div><br>
-    <p><h3>Need Help!</h3></p>
-    <i class="fa fa-paper-plane"></i> <a href="mailto:Eccat2018@gmail.com" target="_blank"> CONTACT US </a>
+    <p><h3>!تحتاج مساعدة ّ</h3></p>
+    <i class="fa fa-paper-plane"></i> <a href="mailto:Eccat2018@gmail.com" target="_blank"> اتصل بنا </a>
 
     
   <!-- End Contact Section -->
